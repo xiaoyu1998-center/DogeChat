@@ -17,7 +17,7 @@
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
 
         <activity
-            android:name=".activities.OpenActivity"
+            android:name=".activities.BiometricActivity"
             android:exported="false" />
 
         <activity
@@ -44,7 +44,7 @@
             android:name=".activities.lr.LRActivity"
             android:windowSoftInputMode="adjustNothing" />
 
-        <activity android:name=".activities.BiometricActivity">
+        <activity android:name=".activities.OpenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
