@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Xiaoyu Chat</string>
+
+    <!--  LR Activity  -->
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="phone">Phone</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_to_continue">Login to continue</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="add_image">Add Image</string>
+    <string name="NAME">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="select_user">Select User</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="loading">Searching for update</string>
+    <string name="cant_find">Cant Find App Details</string>
+    <string name="fail_update">Failed to connect to the server</string>
+    <string name="maintenance">The server is under maintenance</string>
+    <string name="new_version">Have found new version</string>
+    <string name="status_success">Welcome to Xiaoyu Chat</string>
+    <string name="e_mail_address">E-Mail Address</string>
+    <string name="password_login">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="or_login_via">or Login via</string>
+    <string name="next">Next</string>
+    <string name="valid_email">Please Enter a valid email address.</string>
+    <string name="didnt_match">Those passwords didn’t match. Try again..</string>
+    <string name="enter_confirm_password">Please enter a confirm password.</string>
+    <string name="enter_password">Please enter a password.</string>
+    <string name="valid_password">Use 8 characters or more for your password</string>
+    <string name="show_password">Show Password</string>
+    <string name="upload_image">Please upload profile image.</string>
+    <string name="make_sure">Please make sure all fields are filled in correctly.</string>
+    <string name="email_taken">That email is taken. Try another</string>
+    <string name="verify_your_email">Verify your Email</string>
+    <string name="sign_up_for_a_nnew_account">Sign up for a <br />new account.</string>
+    <string name="we_just_need_some_more_information">We just need some more information.</string>
+    <string name="we_sent_otp_code_to_your_email">We sent OTP code to your email</string>
+    <string name="please_verify">Please enter verification code.</string>
+    <string name="the_verification_code_entered_was_invalid_or_expired">The verification code entered <br />was invalid or expired.</string>
+    <string name="too_many">Too many request otp.<br />Please contact admin to active your account.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_setting">Setting</string>
+    <string name="chat">Chat</string>
+    <string name="logout">Logout</string>
+    <string name="language">Language</string>
+    <string name="devices">Devices</string>
+    <string name="ask_a_questions">Ask a Questions</string>
+    <string name="xiaoyu_faq">Xiaoyu FAQ</string>
+    <string name="xiaoyu_features">Xiaoyu Features</string>
+    <string name="privacy_and_security">Privacy and Security</string>
+    <string name="passcode">Passcode</string>
+    <string name="when_you_set_up_an_additional_passcode_a_lock_icon_will_appear_on_the_chats_page_tap_it_to_lock_and_unlock_the_app">When you set up an additional passcode, a lock icon\n will appear on the chats page. Tap it to lock and\n unlock the app</string>
+    <string name="turn_passcode_on">Turn Passcode On</string>
+    <string name="note_if_you_forget_the_passcode_you_ll_need_to_contact_admin_to_get_back_passcode">Note: if you forget the passcode, you\'ll need to contact admin to get back passcode.</string>
+    <string name="passcode_options">Passcode Options</string>
+    <string name="enter_passcode">Enter Passcode</string>
+    <string name="please_enter_your_passcode">Please enter your passcode</string>
+
+</resources>

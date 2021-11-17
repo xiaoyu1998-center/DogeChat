@@ -1,0 +1,98 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Theme.MainActivity" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Status Transparent. -->
+        <item name="android:windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <!-- Input -->
+    <style name="LRTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundColor">#8CFFFFFF</item>
+        <item name="android:textColorHint">#656565</item>
+        <item name="boxStrokeColor">#656565</item>
+        <item name="hintTextColor">#656565</item>
+    </style>
+
+    <style name="LRTextFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">#FFFFFF</item>
+        <item name="hintTextColor">@color/grey</item>
+        <item name="boxStrokeColor">#c34668</item>
+    </style>
+
+    <style name="ChatTextFilledBox" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxBackgroundColor">@color/grey_secondary</item>
+        <item name="hintTextColor">@color/grey_secondary</item>
+        <item name="boxStrokeColor">@color/grey_secondary</item>
+        <item name="background">@drawable/background_send_message</item>
+    </style>
+
+
+    <style name="LRButton" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">#c34668</item>
+    </style>
+
+    <style name="PasscodeButton" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@color/black</item>
+    </style>
+
+    <style name="PasscodePad" parent="Widget.AppCompat.Button">
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+        <item name="backgroundTint">@color/deep_grey</item>
+    </style>
+    <!-- End -->
+
+    <!-- Bottom Sheet Dialog Theme -->
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/background_content_login</item>
+    </style>
+
+    <style name="AppBottomSheetDialogPasscodeTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalPasscodeStyle</item>
+    </style>
+
+    <style name="AppModalPasscodeStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <!-- End -->
+
+    <!--  Collapse Toolbar -->
+    <style name="ExpandedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/_24ssp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/tthoves_demibold</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CollapsedAppBar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:fontFamily">@font/tthoves_demibold</item>
+    </style>
+    <!--  End  -->
+
+</resources>

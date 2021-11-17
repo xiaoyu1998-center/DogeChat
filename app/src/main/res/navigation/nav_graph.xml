@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.xiaoyu.chat.fragment.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.xiaoyu.chat.fragment.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" >
+        <action
+            android:id="@+id/action_settingFragment_to_securityFragment"
+            app:destination="@id/securityFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+        <action
+            android:id="@+id/action_settingFragment_to_deviceFragment"
+            app:destination="@id/deviceFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/securityFragment"
+        android:name="com.xiaoyu.chat.fragment.SecurityFragment"
+        android:label="fragment_security"
+        tools:layout="@layout/fragment_security" >
+        <action
+            android:id="@+id/action_securityFragment_to_rulePasscodeFragment"
+            app:destination="@id/rulePasscodeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="false"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/passcodeFragment"
+        android:name="com.xiaoyu.chat.fragment.PasscodeFragment"
+        android:label="fragment_passcode"
+        tools:layout="@layout/fragment_passcode" >
+        <action
+            android:id="@+id/action_passcodeFragment_to_securityFragment"
+            app:destination="@id/securityFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:launchSingleTop="true"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
+            app:popUpTo="@id/securityFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/rulePasscodeFragment"
+        android:name="com.xiaoyu.chat.fragment.RulePasscodeFragment"
+        android:label="fragment_rule_passcode"
+        tools:layout="@layout/fragment_rule_passcode">
+        <action
+            android:id="@+id/action_rulePasscodeFragment_to_passcodeFragment2"
+            app:destination="@id/passcodeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/deviceFragment"
+        android:name="com.xiaoyu.chat.fragment.DeviceFragment"
+        android:label="fragment_device"
+        tools:layout="@layout/fragment_device" />
+</navigation>
